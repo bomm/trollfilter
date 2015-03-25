@@ -8,10 +8,11 @@
 // @grant       GM_deleteValue
 // @include      *.tanzmitmir.net/*/viewtopic.php*
 // @exclude
-// @description  Verstecke Beiträge ausgewählter Nutzer im tanzmitmir.net-Forum. Benutzung: [X] vor Benutzernamen zum Ignorieren des Benutzers. [+] nach Benutzernamen zum Einblenden des Beitrags oder Zitats.
+// @description    Verstecke Beiträge ausgewählter Nutzer im tanzmitmir.net-Forum. Benutzung: [X] vor Benutzernamen zum Ignorieren des Benutzers. [+] nach Benutzernamen zum Einblenden des Beitrags oder Zitats.
 // @description:en Hide posts of selected users in tanzmitmir.net forum. Usage: [X] before every username to ignore the selected user. [+] after the username to unhide hidden post or quotation.
-//   Based on phpBB User Hide (Firefox 3 compatible) http://userscripts.org/scripts/show/50036
 // ==/UserScript==
+//
+//   Based on phpBB User Hide (Firefox 3 compatible) http://userscripts.org/scripts/show/50036 http://userscripts-mirror.org/scripts/show/50036
 //
 
 (function() {
