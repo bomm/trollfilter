@@ -1,4 +1,4 @@
-// ==UserScript==
+﻿// ==UserScript==
 // @name        Trollfilter-tanzmitmir.net
 // @name:en     Trollfilter-tanzmitmir.net
 // @namespace   trollfilter.tanzmitmir.net
@@ -8,7 +8,7 @@
 // @grant       GM_deleteValue
 // @include      *.tanzmitmir.net/*/viewtopic.php*
 // @exclude
-// @description  Verstecke Beitr�ge ausgew�hlter Nutzer im tanzmitmir.net-Forum. Benutzung: [x] vor Benutzernamen zum Ignorieren des Benutzers. [+] nach Benutzernamen zum Einblenden des Beitrags oder Zitats.
+// @description  Verstecke Beiträge ausgewählter Nutzer im tanzmitmir.net-Forum. Benutzung: [x] vor Benutzernamen zum Ignorieren des Benutzers. [+] nach Benutzernamen zum Einblenden des Beitrags oder Zitats.
 // @description:en Hide posts of selected users in tanzmitmir.net forum. Usage: [X] before every username to ignore the selected user. [+] after the username to unhide hidden post or quotation.
 //   Based on phpBB User Hide (Firefox 3 compatible) http://userscripts.org/scripts/show/50036
 // ==/UserScript==
@@ -141,7 +141,7 @@
 
 		// Add relevant event handlers to user's name and a toggler node
 		var toggler = document.createElement('span');
-		toggler.setAttribute('title', "Benutzer zur Ignorierliste hinzufügen oder davon entfernen");
+		toggler.setAttribute('title', "Benutzer zur Ignorierliste hinzufÃ¼gen oder davon entfernen");
 		toggler.appendChild(document.createTextNode('[X] '));
 		toggler.style.fontSize = "7pt";
 		toggler.addEventListener('mouseover', curPointer, true);
