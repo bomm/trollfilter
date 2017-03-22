@@ -2,7 +2,7 @@
 // @name        Trollfilter-tanzmitmir.net
 // @name:en     Trollfilter-tanzmitmir.net
 // @namespace   trollfilter.tanzmitmir.net
-// @version     2.2
+// @version     2.3
 // @grant       GM_getValue
 // @grant       GM_setValue
 // @grant       GM_deleteValue
@@ -142,7 +142,7 @@
 
 		// Add relevant event handlers to user's name and a toggler node
 		var toggler = document.createElement('span');
-		toggler.setAttribute('title', "Benutzer zur Ignorierliste hinzufÃ¼gen oder davon entfernen");
+		toggler.setAttribute('title', "Benutzer zur Ignorierliste hinzufügen oder davon entfernen");
 		toggler.appendChild(document.createTextNode('[X] '));
 		toggler.style.fontSize = "7pt";
 		toggler.addEventListener('mouseover', curPointer, true);
